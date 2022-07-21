@@ -4,6 +4,8 @@ import Navbar from "../Core/Navbar/Navbar";
 import PicBody from "../Core/PicBody/PicBody";
 import HomeBoxes from "../Core/HomeBoxes/HomeBoxes";
 
+import Signin from "../Core/Signin/Signin";
+
 const Home = () => {
     return(
         <div className="gray-100">
@@ -20,6 +22,9 @@ const Home = () => {
                 <div></div>
                 <div> Launch Your Own CBD Business</div>
                 <div className="pr-20 cursor-pointer"> X </div>
+            </section>
+            <section>
+                <Signin />
             </section>
         </div>
     )
