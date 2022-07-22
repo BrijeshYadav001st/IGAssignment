@@ -1,18 +1,18 @@
 import React from "react";
 import LogoImg from '../../image/logo2.svg'
-const Signin = () => {
-    return (
-        <>
-            
-            <div className="items-center flex justify-center p-4 " >
+
+const Modal = () => {
+    return(
+        <div className="top-28 left-0 right-0 absolute bottom-0 z-10 animation md:opacity-1 animation delay-100 transition'">
+             <div className="items-center flex justify-center p-4 " >
                 
-                <form className="p-10 w-96 bg-gray-100 rounded-lg">
+                <form className="p-10 w-96  bg-gray-100 rounded-lg">
                 <img className="items-center pb-4" alt="Logo" src={LogoImg} />
                     <div class="mb-4 ">
                         <label>Email</label>
                         <input
                             type="text"
-                            class="form-control block w-full  border-b-2  text-base font-normal text-gray-700 bg-white bg-clip-padding rounded transitio m-0 outline-none pt-4"
+                            class="form-control block w-full  text-base font-normal  bg-clip-padding rounded transitio m-0 outline-none pt-4 pl-2 border-b-2 border-gray-700 bg-transparent"
                             id="exampleFormControlInput1"
 
                         />
@@ -21,7 +21,7 @@ const Signin = () => {
                         <label>Password</label>
                         <input
                             type="password"
-                            class="form-control block w-full  border-b-2  text-base font-normal text-gray-700 bg-white bg-clip-padding rounded transitio m-0 outline-none pt-4 "
+                            class="form-control block w-full  text-base font-normal text-gray-700  bg-clip-padding rounded transitio m-0 outline-none pt-4 pl-2  border-b-2 border-gray-700 bg-transparent "
                             id="exampleFormControlInput1"
 
                         />
@@ -42,7 +42,8 @@ const Signin = () => {
                 </form>
 
             </div>
-        </>
+        </div>
+
     )
 }
-export default Signin
+export default Modal;

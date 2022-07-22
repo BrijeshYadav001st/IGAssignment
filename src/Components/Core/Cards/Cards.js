@@ -17,7 +17,7 @@ const Cards = ({cardData}) => {
     // console.log(data , cardData ,itemData)
 
     return (
-        <div className=" flex grid grid-cols-2 gap-10 w-full md:flex-row md:flex-nowrap flex-wrap flex-col ">
+        <div className=" flex grid grid-cols-2 gap-28 w-full md:flex-row md:flex-nowrap flex-wrap flex-col ">
             {
                 cardData.map((el) => {
                     return (
