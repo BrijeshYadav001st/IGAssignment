@@ -3,7 +3,7 @@ import BoxImg from '../../image/boxImg.svg'
 import Star from '../../image/star.svg'
 import Chat from '../../image/chat.svg'
 import Like from '../../image/like.svg'
-import { data } from "../../data";
+import { data } from "../../data1";
 
 const Cards = () => {
     return (

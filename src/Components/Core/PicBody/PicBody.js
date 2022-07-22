@@ -5,16 +5,11 @@ import Pic3 from "../../image/img3.svg"
 
 const PicBody = () => {
     return(
-        <span className="flex">
-            <span className="w-1/3" ><img src={Pic1} className="w-full"/></span>
-            <span className="w-1/3"> <img src={Pic2} className="w-full"/> </span>
-            <span className="w-1/3"><img src={Pic3} className="w-full"/></span>
-            <div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-        </span>
+        <div className="flex">
+            <div className="w-1/3" ><img src={Pic1} className="w-full h-56 object-cover" alt="pic"/></div>
+            <div className="w-1/3"> <img src={Pic2} className="w-full h-56 object-cover" alt="pic"/> </div>
+            <div className="w-1/3"><img src={Pic3} className="w-full h-56 object-cover" alt="pic"/></div>
+        </div>
 
         
     )
