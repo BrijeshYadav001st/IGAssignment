@@ -1,26 +1,26 @@
 export const data = [
     {
-    name: "item6",
+    name: "item21",
     company: "Global X Change",
     price: "5.31"
     },
     {
-    name: "item7",
+    name: "item22",
     company: "Global X Change",
     price: "5.31"
     },
     {
-    name: "item8",
+    name: "item23",
     company: "Global X Change",
     price: "5.31"
     },
     {
-    name: "item9",
+    name: "item24",
     company: "Global X Change",
     price: "5.31"
     },
     {
-    name: "item10",
+    name: "item25",
     company: "Global X Change",
     price: "5.31"
     },

@@ -16,10 +16,15 @@ const Navbar = () => {
             <div className="h-16">
                 <img src={Logo1} className="w-20 h-16" alt="logo-img" />
             </div>
-            <div  onClick={() => { SetIsOpen(true) }} >
+            <div >
                 <img src={Logo2} className="w-28 h-20" alt="logo-img" />
             </div>
 
+            
+                    
+            <div  onClick={() => { SetIsOpen(true) }}>
+                <img src={Logo3} className="w-20 h-16" alt="logo-img"/>
+            </div>
             <Modal
                                     open={isOpen}
                                     close={closeModal}
@@ -31,10 +36,6 @@ const Navbar = () => {
                                 >
                                     <Signin />
                                 </Modal>
-                    
-            <div>
-                <img src={Logo3} className="w-20 h-16" alt="logo-img"/>
-            </div>
         </div>
     )
 }
